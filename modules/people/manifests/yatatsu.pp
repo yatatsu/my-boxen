@@ -23,7 +23,7 @@ class people::yatatsu {
   # app for develop
 #  include zsh
   include iterm2::stable
-  include emacs
+  # include emacs
   include sequel_pro
 
   # app for utility
@@ -39,7 +39,13 @@ class people::yatatsu {
       'readline',
       'tmux',
       'reattach-to-user-namespace',
-      'tig'
+      'tig',
+      'emacs':
+      install_options => [
+        '--cocoa',
+        '--use-git-head',
+        '--HEAD',
+      ]
     ]:
   }
 
