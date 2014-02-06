@@ -39,13 +39,7 @@ class people::yatatsu {
       'readline',
       'tmux',
       'reattach-to-user-namespace',
-      'tig',
-      'emacs':
-      install_options => [
-        '--cocoa',
-        '--use-git-head',
-        '--HEAD',
-      ]
+      'tig'
     ]:
   }
 
@@ -70,6 +64,12 @@ class people::yatatsu {
     'zsh':
       install_options => [
         '--disable-etcdir'
+      ];
+     'emacs':
+      install_options => [
+        '--cocoa',
+        '--use-git-head',
+        '--HEAD',
       ]
   }
   
