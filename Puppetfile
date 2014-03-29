@@ -70,7 +70,7 @@ github "imagemagick","1.2.0" # via homebrew
 github "heroku",     "2.0.0"
 github "virtualbox", "1.0.10"
 github "vagrant",    "3.0.0"
-github "memcached",  "2.0.0"
+
 
 #app for develop
 github "iterm2",     "1.0.4"

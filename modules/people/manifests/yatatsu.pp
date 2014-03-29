@@ -19,7 +19,6 @@ class people::yatatsu {
   include virtualbox
   include vagrant
   include heroku
-  include memcached
 
   # app for develop
   include iterm2::stable
@@ -39,7 +38,8 @@ class people::yatatsu {
       'tmux',
       'reattach-to-user-namespace',
       'tig',
-	  'httpd'
+	  'httpd',
+	  'memcached'
     ]:
   }
 
