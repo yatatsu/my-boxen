@@ -38,8 +38,6 @@ class people::yatatsu {
       'tmux',
       'reattach-to-user-namespace',
       'tig',
-	  'httpd',
-	  'memcached'
     ]:
   }
 
