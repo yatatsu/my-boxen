@@ -75,6 +75,7 @@ github "vagrant",    "3.0.0"
 #app for develop
 github "iterm2",     "1.0.4"
 github "sequel_pro", "1.0.1"
+github "eclipse",    "2.3.0"
 
 #app for utility
 github "chrome",     "1.1.2"

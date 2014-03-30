@@ -23,6 +23,7 @@ class people::yatatsu {
   # app for develop
   include iterm2::stable
   include sequel_pro
+  include eclipse::jee
 
   # app for utility
   include firefox
