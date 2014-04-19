@@ -55,6 +55,7 @@ node default {
   # core modules, needed for most things
   include dnsmasq
   include git
+  include autoconf
   include hub
   include nginx
 
