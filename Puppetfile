@@ -62,6 +62,7 @@ github "osx",        "2.2.2"
 
 github "java",       "1.2.0"
 github "php",        "1.1.4"
+github "python",	 "1.1.1"
 github "libtool",    "1.0.0" # use for php
 github "pcre",       "1.0.0" # use for php
 github "libpng",     "1.0.0" # use for php

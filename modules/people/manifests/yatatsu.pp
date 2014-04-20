@@ -12,6 +12,7 @@ class people::yatatsu {
 
   # lib
   include java
+  include python
   include php::5_4_17
   include mysql
   include wget
